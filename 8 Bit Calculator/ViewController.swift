@@ -49,6 +49,8 @@ class ViewController: UIViewController {
     
     @IBAction func numberPressed(btn: UIButton!){
         buttonSound.play()
+        runningNumber += "\(btn.tag)"
+        outputLabel.text = runningNumber
     }
     
     @IBAction func onDividePressed(sender: UIButton) {
