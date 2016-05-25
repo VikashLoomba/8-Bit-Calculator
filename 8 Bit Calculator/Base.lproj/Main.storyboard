@@ -33,7 +33,7 @@
                                 <rect key="frame" x="0.0" y="547" width="600" height="53"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="X6t-Rb-6LH">
-                                <rect key="frame" x="144" y="121" width="313" height="437"/>
+                                <rect key="frame" x="144" y="121" width="313" height="472"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="D0C-XK-d9R">
                                         <rect key="frame" x="36" y="0.0" width="241" height="71"/>
@@ -47,6 +47,13 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="313" id="28H-Zk-xnB"/>
                                             <constraint firstAttribute="height" constant="366" id="AeW-EN-Ewh"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="clear" translatesAutoresizingMaskIntoConstraints="NO" id="fDP-el-t26">
+                                        <rect key="frame" x="112" y="437" width="89" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="89" id="6lI-ZK-P8X"/>
+                                            <constraint firstAttribute="height" constant="35" id="DcR-4h-VYW"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -295,6 +302,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
